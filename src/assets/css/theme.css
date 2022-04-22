@@ -1,0 +1,344 @@
+body, h1, h2, h3, h4, h5, div, p {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0px; padding: 0px;
+    }
+    ul, ol, li {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    }
+    
+    .wrapper {
+    width: 90%;
+    margin: 0px auto;
+    overflow: hidden;
+    }
+    
+    /* nav and menu */
+    
+    nav {
+    height: 75px;
+    width: auto;
+    }
+    
+    nav .logo {width: 200px;float: left;}
+    
+    nav .logo img {width: 150px;height: 65px;object-fit: contain;}
+    
+    ul.menu {width: auto;float: right;margin-top: 25px;}
+    ul.menu li {float: left;}
+    
+    ul.menu li a {text-decoration: none;color: #000;font-size: 12pt;padding: 15px;}
+    
+    ul.menu li a:hover {
+    color: #4a3d99;
+    }
+    
+    ul.menu li:last-child a {
+    background-color: #4a3d99;
+    color: white;
+    border-radius: 10px;
+    padding: 15px 35px;
+    }
+    
+    ul.menu li:nth-child(6) {
+    margin-left: 55px;
+    }
+    
+    /* hero section */
+    section.hero {
+    width: 100%;
+    height: calc(100vh - 75px);
+    }
+    
+    section.hero .content {
+    width: 45%;
+    margin-right: 5%;
+    float: left;
+    margin-top: 80px;
+    }
+    section.hero .content span {
+    width: auto;
+    padding: 5px 15px;
+    background-color: #F1EFFC;
+    text-align: center;
+    border-radius: 25px;
+    font-size: 10pt;
+    line-height: 35pt;
+    }
+    section.hero .content h1 {
+    font-size: 30pt;
+    font-weight: 600;
+    line-height: 43pt;
+    margin: 20px 0px;
+    }
+    section.hero .content p {
+    font-size: 13pt;
+    line-height: 26pt;
+    }
+    
+    a.btn-primary {
+    background-color: #4a3d99;
+    color: white;
+    border-radius: 10px;
+    padding: 15px 40px;
+    text-decoration: none;
+    display: block;
+    float: left;
+    margin-top: 15px;
+    }
+    
+    section.hero .image {
+    width: 45%;
+    margin-left: 5%;
+    float: right;
+    margin-top: 85px;
+    }
+    section.hero .image img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 18px;
+    }
+    
+    
+    
+    section.features 
+    {
+    width: auto;
+    height: auto;
+    padding: 25px 0;
+    }
+    section.features h2 
+    {
+    font-size: 22pt;
+    font-weight: 600;
+    line-height: 25px;
+    margin: 20px 0px;
+    text-align: center;
+    }
+    section.features ul
+    {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    margin-top: 65px;
+    }
+    section.features ul li 
+    {
+    width: calc(25% - 30px);
+    float: left;
+    padding: 15px;
+    text-align: left;
+    }
+    section.features ul li img 
+    {
+    width: 45px;
+    margin-bottom: 10px;
+    }
+    section.features ul li h3 
+    {
+    font-size: 14pt;
+    line-height: 28pt;
+    color: #000;
+    }
+    section.features ul li p 
+    {
+    font-size: 10pt;
+    line-height: 14pt;
+    color: #000;
+    }
+    
+    section.reach-to-us {
+    width: auto;
+    height: auto;
+    padding: 25px 0;
+    }
+    section.reach-to-us .header {
+    width: 40%;
+    height: auto;
+    }
+    section.reach-to-us .header h2 {
+    font-size: 25pt;
+    width: 80%;
+    margin: 0;
+    margin-bottom: 10px;
+    }
+    section.reach-to-us .header p {
+    font-size: 12pt;
+    line-height: 20pt;
+    }
+    
+    ul.steps {
+    width: auto;
+    height: auto;
+    }
+    ul.steps li 
+    {
+    width: calc(33.33% - 60px);
+    float: left;
+    padding: 20px;
+    margin: 10px;
+    background-color: #F1F0F8;
+    border-radius: 10px;
+    min-height: 135px;
+    
+    
+    
+    }
+    ul.steps li span
+    {
+    background-color: #E0DDEE;
+    display : block;
+    text-align: center;
+    padding: 10px;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    
+    
+    }
+    ul.steps li h2
+    {
+    font-size: 14pt;
+    line-height: 25px;
+    margin: 10px 0;
+    
+    }
+    ul.steps li p
+    {
+    font-size: 12px;
+    }
+    
+    /* platform */
+    section.platform {
+        width: auto;
+        padding: 25px 0;
+        overflow: hidden;
+    }
+    section.platform div.image {    width: 45%;
+    margin-left: 5%;
+    float: right;
+    margin-top: 85px;}
+    section.platform div.image img {    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 18px;}
+    
+    section.platform div.content {    width: 45%;
+    margin-right: 5%;
+    float: left;
+    margin-top: 80px;}
+    section.platform div.content span {    width: auto;
+    padding: 5px 15px;
+    background-color: #F1EFFC;
+    text-align: center;
+    border-radius: 25px;
+    font-size: 10pt;
+    line-height: 35pt;}
+    section.platform div.content h2 {    font-size: 30pt;
+    font-weight: 600;
+    line-height: 43pt;
+    margin: 20px 0px;}
+    section.platform div.content p {    font-size: 13pt;
+    line-height: 26pt;}
+    a.btn {    background-color: #4a3d99;
+    color: white;
+    border-radius: 10px;
+    padding: 15px 40px;
+    text-decoration: none;
+    display: block;
+    float: left;
+    margin-top: 15px;}
+    
+    
+    /* Register */
+    
+    .register {
+        background-color: transparent !important;
+    border: none !important;
+    padding: 0 !important;
+    }
+    
+    .register button {    background-color: #4a3d99;
+    color: white;
+    border-radius: 4px;
+    padding: 18px 40px;
+    text-decoration: none;
+    display: block;
+    margin-top: 5px;
+    border: none;
+    width: 100%;}
+    
+    .multi-input {
+        width: 100%;
+    height: auto;
+    overflow: hidden;
+    margin-bottom: 10px;
+    }
+    
+    .multi-input .input-box {
+        width: calc(45% - 5px);
+    float: left;
+    margin: 0;
+    }
+    
+    .multi-input .left {
+        margin-right: 5px;
+    }
+    .multi-input .right {
+        margin-left: 5px;
+    }
+    
+    .input-box {
+        width: auto; height: auto; padding: 8px 10px; background-color: #f4f4f4;
+    border: 1px solid #cecece; border-radius: 4px; margin-bottom: 10px; overflow: hidden;
+    }
+    .input-box img {
+        width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    object-fit: contain;
+    opacity: 0.5;
+    padding-top: 9px;
+    float: left;
+    }
+    .input-box input, .input-box select {
+        width: calc(100% - 55px);
+    padding: 12px;
+    font-size: 10pt;
+    border: none;
+    background-color: #f4f4f4;
+    float: left;
+    outline: none;
+    }
+    
+    
+    .register-form {width: 520px;
+    min-height: 480px;
+    background-color: #ffffff;
+    border: 1px solid #d4d4d4;
+    border-radius: 7px;
+    box-shadow: 0px 0px 27px rgb(0 0 0 / 15%);
+    margin: 75px auto;
+    margin-top: 14vh;
+    padding: 25px;
+    }
+    
+    .register-form .title {
+    width: auto;
+    height: auto;
+    text-align: center;
+    margin-bottom: 50px;
+    }
+    .register-form .title h3 {
+    font-size: 17pt;
+    font-weight: bold;
+    }
+    
+    .register-form .form {
+    width: 85%;
+    height: auto;
+    margin: 0px auto;
+    }
+    
