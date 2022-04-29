@@ -2,7 +2,7 @@
     <section class="platform">
         <div class="wrapper">
             <div class="image">
-                <img src="../assets/images/platform-skill.jpg" />
+                <img src="../../assets/images/platform-skill.jpg" />
             </div>
             <div class="content">
                 <span>#No 1. Platfrom for learning</span>

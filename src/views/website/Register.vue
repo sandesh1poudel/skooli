@@ -10,33 +10,33 @@
 
             <div class="multi-input">
                 <div class="input-box left">
-                    <img src="../assets/images/user.svg" />
+                    <img src="../../assets/images/user.svg" />
                     <input type="text" placeholder="Frist Name" name="firstname">
                 </div>
 
                 <div class="input-box right">
-                    <img src="../assets/images/user.svg" />
+                    <img src="../../assets/images/user.svg" />
                     <input type="text" placeholder="Last Name" name="lastname">
                 </div>
             </div>
 
             <div class="input-box">
-                <img src="../assets/images/mail.svg" />
+                <img src="../../assets/images/mail.svg" />
                 <input type="text" placeholder="Email Address" name="email">
             </div>
 
             <div class="input-box">
-                <img src="../assets/images/lock.svg" />
+                <img src="../../assets/images/lock.svg" />
                 <input type="password" placeholder="Password" name="password">
             </div>
 
             <div class="input-box">
-                <img src="../assets/images/lock.svg" />
+                <img src="../../assets/images/lock.svg" />
                 <input type="password" placeholder="Re-Password" name="re-password">
             </div>
 
             <div class="input-box">
-                <img src="../assets/images/lock.svg" />
+                <img src="../../assets/images/lock.svg" />
                 <select name="country">
                     <option value="Nepal">Nepal</option>
                     <option value="China">China</option>

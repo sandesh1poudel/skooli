@@ -10,7 +10,7 @@
             </div>
             
             <div class="image">
-                <img src="../assets/images/hero-image.jpg" />
+                <img src="../../assets/images/hero-image.jpg" />
             </div>
         </div>
     </section>
@@ -20,25 +20,25 @@
             <h2>Skooli ensured your satisfication</h2>
             <ul>
                 <li>
-                    <img src="../assets/images/expert-instructor.svg" />
+                    <img src="../../assets/images/expert-instructor.svg" />
                     <h3>Expert Instructor</h3>
                     <p>With an expert instructor we make sure your course going well</p>
                 </li>
 
                 <li>
-                    <img src="../assets/images/online-courses.svg" />
+                    <img src="../../assets/images/online-courses.svg" />
                     <h3>Online Courses</h3>
                     <p>Choose your course from 1 Million+ online video classes</p>
                 </li>
 
                 <li>
-                    <img src="../assets/images/lifetime-access.svg" />
+                    <img src="../../assets/images/lifetime-access.svg" />
                     <h3>Lifetime Access</h3>
                     <p>Skolli ensured your access for life time. And skooli grants your success</p>
                 </li>
 
                 <li>
-                    <img src="../assets/images/certification.svg" />
+                    <img src="../../assets/images/certification.svg" />
                     <h3>Certification</h3>
                     <p>Skooli ensured your access for lifetime. And skooli grants your success</p>
                 </li>
@@ -49,7 +49,7 @@
     <section class="platform">
         <div class="wrapper">
             <div class="image">
-                <img src="../assets/images/platform-skill.jpg" />
+                <img src="../../assets/images/platform-skill.jpg" />
             </div>
             <div class="content">
                 <span>#No 1. Platfrom for learning</span>
